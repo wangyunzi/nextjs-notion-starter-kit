@@ -71,9 +71,4 @@ export default siteConfig({
    ]
 })
 
-module.exports = {
-  ...
-  // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'wangyunzi/yazi',
-  utterancesGitHubLabel: '博客评论',
-}
+
