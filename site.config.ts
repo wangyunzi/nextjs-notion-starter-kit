@@ -27,7 +27,7 @@ export default siteConfig({
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
   defaultPageCover: null,
-  defaultPageCoverPosition: 1,
+  defaultPageCoverPosition: 0.5, 
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
@@ -49,16 +49,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: '72a5c9288b614647aae97a5948c1369f' 
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '2fbf0e299f2f47ee9e0fff3415a44246'
-  //   }
+  //navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+     {
+       title: 'About',
+       pageId: '72a5c9288b614647aae97a5948c1369f' 
+     },
+     {
+       title: 'Contact',
+       pageId: '2fbf0e299f2f47ee9e0fff3415a44246'
+     }
   // ]
 })
