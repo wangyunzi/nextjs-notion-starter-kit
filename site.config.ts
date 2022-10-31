@@ -33,6 +33,9 @@ export default siteConfig({
   utterancesGitHubRepo: 'wangyunzi/yazi',
   utterancesGitHubLabel: '博客评论',
   
+    // set null to remove from year
+  copyRightFromYear: 2022,
+  
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
