@@ -30,11 +30,11 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5, 
   
     // Utteranc.es comments via GitHub issue comments (optional)
- utterancesGitHubRepo: 'wangyunzi/yazi',
- utterancesGitHubLabel: '博客评论',
+//  utterancesGitHubRepo: 'wangyunzi/yazi',
+//  utterancesGitHubLabel: '博客评论',
   
     // set null to remove from year
-//  copyRightFromYear: 2022,
+ copyRightFromYear: 2022,
   
 
   // whether or not to enable support for LQIP preview images (optional)
